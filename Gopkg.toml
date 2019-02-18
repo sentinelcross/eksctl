@@ -31,6 +31,10 @@ required = [
   name = "k8s.io/client-go"
   version = "kubernetes-1.11.3"
 
+#[[override]]
+#  name = "k8s.io/kubernetes"
+#  version = "v1.11.3"
+
 [[constraint]]
   branch = "master"
   name = "k8s.io/cli-runtime"
